@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("../foto/background-conteudo.png");
+  width: 1300px;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}    
+
+a:visited{
+  color: rgb(63, 96, 227);
+}
+a:link{
+  color: rgb(63, 96, 227);
+}
+
+.nav {
+  width: 1300px;
+  height: 74px;
+  background: #000000;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+}
+.nav li {
+  display: inline-block;
+  color: white;
+  padding: 2%;
+  position: relative;
+  margin-top: 0px;
+  padding: 16px;
+}
+
+.nav ul {
+  margin-top: 0px;
+}
+.nav li a:link {
+  text-decoration: none;
+  color: white;
+}
+.nav li a:visited {
+  text-decoration: none;
+  color: white;
+}
+.lead {
+  font-size: 23px;
+}
+article {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+figure {
+  background-color: #181717;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+figcaption {
+  color: white;
+}
+figure img {
+  width: 400px;
+}
+#Foto {
+  float: left;
+}
+#cript {
+  max-width: fit-content;
+  float:right
+}
+#politica-seg {
+  max-width: fit-content;
+  float:right;
+}
+#leigeraldeprotecao {
+  max-width: fit-content;
+  float:left;
+}
+#footer {
+  height: 80px;
+  background-color: #212529;
+  width: 1350px;
+  color: white;
+  bottom: 0;
+  clear: both;
+}
+#footer li {
+  margin-top: 22px;
+  float: left;
+  list-style-type: none;
+}
+#footer li img {
+  height: 35px;
+}
+/*#footer a[href*="fatec"] {
+  background-image: url("/foto/icone-fatec.jpg");
+}*/
+#footer img {
+  height: 80px;
+  float: right;
+  margin-right: 50px;
+}
+
