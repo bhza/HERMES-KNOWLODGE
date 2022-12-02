@@ -5,15 +5,14 @@
 
 body {
   background-image: url("../foto/background-conteudo.png");
-  width: 1300px;
   margin: 0px;
   padding: 0px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   overflow-x: hidden;
 }
-.nav {
-  width: 1300px;
+.nav { 
   height: 74px;
   left: 0px;
   top: 0px;
@@ -96,8 +95,7 @@ height: 270px;
 
 #footer {
   height: 80px;
-  background-color: #212529;
-  width: 1350px;
+  background-color: #212529; 
   color: white;
   text-align: center;
   clear: both;

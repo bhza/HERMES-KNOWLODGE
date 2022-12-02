@@ -3,16 +3,19 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  width: 1300px;
   height: 900px;
   background-image: url("../foto/background-home.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #11041f;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 nav {
   position: absolute;
-  width: 1300px;
+  width: 100%;
   height: 74px;
   left: 0px;
   top: 0px;
@@ -42,13 +45,14 @@ nav li a:visited {
   color: white;
 }
 .front-p {
-  position: absolute;
+  position: relative;
   width: 677px;
   height: 176px;
-  left: 630px;
-  top: 170px;
+  float: right;
+  margin-right: 2%;
+  top: 150px;
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 1px;
   text-align: right;
   padding-left: 25px;
@@ -59,11 +63,13 @@ nav li a:visited {
 }
 .logo img {
   margin-top: 30px;
-  position: relative;
-  width: 425px;
-  left: 71px;
+  position: absolute;
+  float: left;
+  width: 390px;
+  margin-left: 5%;
   top: 150px;
   border: solid 5px #b75454;
+  max-width: fit-content;
 }
 .logo p {
   color: white;
@@ -73,16 +79,22 @@ nav li a:visited {
 }
 .avaliado p {
   color: white;
-  font-size: 40px;
-  line-height: 8px;
-  margin-left: 70px;
-  position: relative;
-  margin-top: 0px;
+  font-size: 32px;
+  line-height: 0px;
+  margin-left: 8%;
+  position: absolute;
+  margin-top: 15%;
+}
+footer {
+  width: 100%;
+  text-align: center;
 }
 footer p {
   color: white;
-  position: relative;
-  margin-top: 250px;
-  text-align: center;
+  position: absolute;
+  /*margin-top: 25%;*/
   font-style: italic;
+  bottom: 10%;
+  margin: auto;
+  width: 100%;
 }
