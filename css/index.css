@@ -44,13 +44,17 @@ nav li a:visited {
   text-decoration: none;
   color: white;
 }
+.centralizar {
+  width: auto;
+  text-align: center;
+}
 .front-p {
-  position: relative;
+  display: inline-block;
+  position: absolute;
   width: 677px;
+  margin-left: 100px;
   height: 176px;
-  float: right;
-  margin-right: 2%;
-  top: 150px;
+  top: 140px;
   color: white;
   font-size: 32px;
   line-height: 1px;
@@ -62,12 +66,11 @@ nav li a:visited {
   display: inline-block;
 }
 .logo img {
-  margin-top: 30px;
-  position: absolute;
-  float: left;
+  margin-top: 15px;
+  position: relative;
   width: 390px;
-  margin-left: 5%;
-  top: 150px;
+  margin-left: -200%;
+  top: 135px;
   border: solid 5px #b75454;
   max-width: fit-content;
 }
@@ -80,10 +83,10 @@ nav li a:visited {
 .avaliado p {
   color: white;
   font-size: 32px;
-  line-height: 0px;
-  margin-left: 8%;
-  position: absolute;
-  margin-top: 15%;
+  margin-left: -800px;
+  position: relative;
+  margin-top: -50px;
+  text-align: center;
 }
 footer {
   width: 100%;
